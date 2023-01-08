@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;1,200;1,400;1,500;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+.contact-body {
+  width: 100%;
+  background-color: #ffffff;
+  padding-bottom: 30px;
+  overflow-x: hidden;
+  padding-top: 60px;
+}
+
+.contact-title {
+  text-align: center;
+  color: #1d1d77;
+  font-size: 45px;
+  font-weight: 300;
+}
+.contact-sub-title {
+  text-align: center;
+  color: #b1afaf;
+  margin-top: 15px;
+  font-weight: 100;
+}
+.contact-title,
+.contact-sub-title,
+.contact-span {
+  text-align: center;
+  margin-top: 10px;
+}
+.bi-dash-lg {
+  width: 40px;
+  height: 1px;
+  background-color: #1d1d77;
+}
+#middl-svg {
+  width: 40px;
+  height: 5px;
+}
+#midlastl-svg {
+  margin-left: -5px;
+  margin-bottom: 2.5px;
+}
+#midfirstl-svg {
+  margin-bottom: 2.5px;
+  margin-right: -5px;
+}
+/* map */
+.map {
+  margin-top: 30px;
+}
+/* content */
+.contact-content {
+  width: 90%;
+  padding-top: 20px;
+  /* height: auto; */
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* gap: 30px; */
+  /* justify-content: ; */
+  /* border-radius: 30px; */
+  /* padding: 0 20px; */
+}
+/* left  */
+.contact-left {
+  width: 550px;
+  height: 650px;
+  background-image: url(./assets/contact-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 70px;
+  border-radius: 10px;
+  /* border: 1px solid black; */
+}
+.contact-left h2 {
+  color: #ffffff;
+  font-weight: 200;
+  font-size: 40px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(75, 75, 170, 0.4);
+  border-radius: 10px;
+}
+/* right */
+.contact-right {
+  width: 550px;
+}
+.contact-right h2 {
+  color: #1d1d77;
+  font-weight: 200;
+  font-size: 35px;
+  /* margin-top: 10px; */
+}
+.contact-icon {
+  background-color: #ffffff;
+  width: 45px;
+  height: 45px;
+  margin-top: 30px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 10px;
+}
+.contact-texts h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: red;
+  margin-top: 30px;
+}
+.contact-texts p {
+  color: #ffffff;
+  font-size: 17px;
+}
+#contact-svg {
+  color: #1d1d77;
+  font-size: 20px;
+}
+
+/* form */
+.form > .form-group {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.mini-content {
+  display: flex;
+  padding-left: 20px;
+  gap: 20px;
+}
+.form input {
+  font-size: 1.2rem;
+  font-family: inherit;
+  color: inherit;
+  padding: 1rem 0px;
+  border-radius: 0px;
+  border: none;
+  border-bottom: 1px solid #11122b;
+  width: 100%;
+  display: block;
+  transition: all 0.3s;
+}
+.form textarea {
+  margin-top: 20px;
+  width: 100%;
+  height: 150px;
+  border: none;
+  border-bottom: 1px solid #11122b;
+  font-family: inherit;
+  color: color;
+  padding: 0.8rem 0px;
+  transition: all 0.3s;
+}
+.mssg {
+  margin-top: 25px;
+}
+.form textarea:focus {
+  outline: none;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  border-color: #cea135;
+}
+.form input:focus {
+  outline: none;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  border-bottom-color: #cea135;
+}
+.form input::-webkit-input-placeholder,
+.form textarea::-webkit-input-placeholder {
+  color: #11122b;
+}
+
+.form input:focus::-webkit-input-placeholder,
+.form textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.form label {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-left: 1px;
+  margin-top: 0.2rem;
+  display: block;
+  transition: 0.3s;
+  color: #cea135;
+  visibility: hidden;
+  opacity: 0;
+}
+.centered-btn-wrapper > .btn {
+  width: 150px;
+  height: 40px;
+  background-color: #1d1d77;
+  color: #ffffff;
+  transition: all 3s;
+}
+.centered-btn-wrapper {
+  width: 150px;
+  height: 40px;
+  border: none;
+  background-color: #ffffff;
+  margin-top: 35px;
+}
+.centered-btn-wrapper:hover {
+  border: 1px solid #1d1d77;
+}
+.centered-btn-wrapper > .btn:hover {
+  border: 1px solid #1d1d77;
+  transition: all 1s;
+  /* transform: scaleX(-1) translateY(1px); */
+  transform: scale(0.8);
+}
+
+.form input:focus + label,
+.form textarea:focus + label {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(1rem);
+}
+@media (max-width: 800px) {
+  .contact-right,
+  .contact-left {
+    margin-top: 20px;
+  }
+  .contact-right {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact-right,
+  .contact-left {
+    width: 100%;
+    height: auto;
+  }
+  .contact-left {
+    margin-left: 25px;
+  }
+}

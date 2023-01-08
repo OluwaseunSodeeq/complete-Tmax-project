@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <title>Spark Energy Solutions</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="assets/favicon image.png"
+    />
+  </head>
+
+  <body>
+    <div>
+      <!-- Nav Bar -->
+      <div class="main-bar">
+        <nav>
+          <input type="checkbox" id="check" />
+          <label for="check" class="checkbtn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+
+          <div class="rolo">
+            <a href="index.html">
+              <img src="assets/reks.png" alt="" />
+            </a>
+          </div>
+
+          <div class="logo-header">
+            <a href="index.html"> Spark Energy Solutions </a>
+          </div>
+
+          <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html" target="_blank">About us</a></li>
+            <li><a href="service.html" target="_blank">Services</a></li>
+            <li><a href="project.html" target="_blank">Projects</a></li>
+            <li><a href="pricing.html" target="_blank">Pricing</a></li>
+            <li><a href="contact.html" target="_blank">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- carousel -->
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide mag"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active solar1 pos">
+            <div class="txt-alg pos-rel w-40 clr-white">
+              <h1 class="font-60">SOLAR POWER, CLEAN AND SAFE ENERGY</h1>
+              <p class="font-15">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Praesentium, nisi? Rem assumenda qui omnis unde atque, quo
+                tempora? Repellat corrupti animi saepe tempora accusamus non,
+                quod consequuntur in cumque omnis?
+              </p>
+              <div class="btn-div">
+                <a href="about.html" target="_blank">
+                  <button class="btn-blue">About Us</button>
+                </a>
+                <a href="contact.html" target="_blank">
+                  <button class="btn-green">Contact Us</button>
+                </a>
+              </div>
+            </div>
+            <div class="carousel-caption d-none d-md-block"></div>
+          </div>
+          <div class="carousel-item solar2 pos">
+            <div class="txt-alg pos-rel w-40 clr-white">
+              <h1 class="font-60">SAVE THE EARTH FROM POLLUTION</h1>
+              <p class="font-15">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Praesentium, nisi? Rem assumenda qui omnis unde atque, quo
+                tempora? Repellat corrupti animi saepe tempora accusamus non,
+                quod consequuntur in cumque omnis?
+              </p>
+              <div class="btn-div">
+                <a href="about.html" target="_blank">
+                  <button class="btn-blue">About Us</button>
+                </a>
+                <a href="contact.html" target="_blank">
+                  <button class="btn-green">Contact Us</button>
+                </a>
+              </div>
+            </div>
+            <div class="carousel-caption d-none d-md-block"></div>
+          </div>
+          <div class="carousel-item solar3 pos">
+            <div class="pos-rel w-40 txt-alg clr-white">
+              <h1 class="font-60">RENEWABLE ENERGY FOR A SUSTAINABLE WORLD</h1>
+              <p class="font-15">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Praesentium, nisi? Rem assumenda qui omnis unde atque, quo
+                tempora? Repellat corrupti animi saepe tempora accusamus non,
+                quod consequuntur in cumque omnis?
+              </p>
+              <div class="btn-div">
+                <a href="about.html" target="_blank">
+                  <button class="btn-blue">About Us</button>
+                </a>
+                <a href="contact.html" target="_blank">
+                  <button class="btn-green">Contact Us</button>
+                </a>
+              </div>
+            </div>
+            <div class="carousel-caption d-none d-md-block"></div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- OUR TEAM -->
+      <div class="p-50">
+        <div class="mtb-20 txt-alg">
+          <div class="blog-font clr-blue">Our Team</div>
+          <p class="sub-headings">OUR EXPERT AGENTS</p>
+        </div>
+
+        <div class="team-container">
+          <div class="txt-alg card-me">
+            <div><img src="img/robin.png" /></div>
+            <div class="p-10">
+              <h3 class="clr-blue">Robin Smith</h3>
+              <p class="clr-red">Technical Director</p>
+            </div>
+          </div>
+          <div class="txt-alg card-me">
+            <div><img src="img/david.png" /></div>
+            <div class="p-10">
+              <h3 class="clr-blue">David Bairstow</h3>
+              <p class="clr-red">Manager</p>
+            </div>
+          </div>
+          <div class="txt-alg card-me">
+            <div><img src="img/wood.png" /></div>
+            <div class="p-10">
+              <h3 class="clr-blue">Snow Wood</h3>
+              <p class="clr-red">Assistant Manager</p>
+            </div>
+          </div>
+          <div class="txt-alg card-me">
+            <div><img src="img/john.png" /></div>
+            <div class="p-10">
+              <h3 class="clr-blue">Barry John</h3>
+              <p class="clr-red">Technician</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Our Blogs -->
+      <section class="ptb-50">
+        <div class="txt-alg">
+          <div class="blog-font clr-blue">Our Blogs</div>
+          <p class="sub-headings">LATEST BLOG & NEWS</p>
+        </div>
+
+        <div class="blogs-contain">
+          <div class="blog-box">
+            <div class="blog-img">
+              <img src="assets/solar2.jpg" alt="" />
+            </div>
+
+            <div class="blog-text">
+              <span>2nd Jan, 2022</span>
+              <a href="#" class="blog-title"
+                >How To Maintain Your Solar Panels</a
+              >
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis,
+                reiciendis cupiditate!
+              </p>
+            </div>
+          </div>
+
+          <div class="blog-box">
+            <div class="blog-img">
+              <img src="img/solar1.png" alt="" />
+            </div>
+
+            <div class="blog-text">
+              <span>2nd Jan, 2022</span>
+              <a href="#" class="blog-title"
+                >How To Maintain Your Solar Panels</a
+              >
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis,
+                reiciendis cupiditate!
+              </p>
+            </div>
+          </div>
+
+          <div class="blog-box">
+            <div class="blog-img">
+              <img src="img/solar2.png" alt="" />
+            </div>
+
+            <div class="blog-text">
+              <span>2nd Jan, 2022</span>
+              <a href="#" class="blog-title"
+                >How To Maintain Your Solar Panels</a
+              >
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis,
+                reiciendis cupiditate!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer-left">
+          <div class="container-xx">
+            <div class="footer-img">
+              <img src="assets/yoo.png" alt="Logo" />
+            </div>
+            <div class="footer-link">
+              <a href="#" class="white"> Spark Energy Solutions </a>
+            </div>
+          </div>
+          <p>
+            Solar Energy helps to protect your environment and protect the earth
+            from pollution. So say NO to air pollution and water pollution.
+          </p>
+          <div class="socials">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+            <a href="#"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+        <ul class="footer-right">
+          <li>
+            <h2>Quick Links</h2>
+            <ul class="box">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </li>
+          <li class="features">
+            <h2>Contact Info</h2>
+            <ul class="box">
+              <li><a href="#">+234 80 3333 3333</a></li>
+              <li><a href="#">projectmax@gmail.com</a></li>
+              <li><a href="#">Abuja, Nigeria</a></li>
+              <li><a href="#">Lagos, Nigeria</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Address</h2>
+            <ul class="box">
+              <li><a href="#">101, Project TMax</a></li>
+              <li><a href="#">Adeniran Ogunsanya</a></li>
+              <li><a href="#">Lagos</a></li>
+              <li><a href="#">Nigeria</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <div class="footer-bottom">
+          <p>
+            Designed by
+            <span class="project"> &copy;Group One - PROJECT TMAX </span>
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
